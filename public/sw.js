@@ -22,7 +22,11 @@ workbox.precaching.precacheAndRoute([
   { url: '/push.js', revision: '1' },
   { url: '/service-worker.js', revision: '1' },
   { url: '/article.html', revision: '1' },
-]);
+],
+  {
+    ignoreURLParametersMatching: [/.*/],
+  }
+);
 
 workbox.routing.registerRoute(
   /\.(?:png|gif|jpg|jpeg|svg)$/,
