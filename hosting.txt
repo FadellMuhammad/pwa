@@ -1,2 +1,3 @@
-info-sepakbola-b1099.web.app
-info-sepakbola-b1099.firebaseapp.com
+info-sepakbola-d214d.web.app
+info-sepakbola-d214d.firebaseapp.com
+
